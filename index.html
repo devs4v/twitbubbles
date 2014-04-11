@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>TwitBubble</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/signin.css"/>
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	1500,		// Speed of transition
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+														//{image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/kazvan-3.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/thumbs/kazvan-3.jpg', url : 'http://www.nonsensesociety.com/2011/04/maria-kazvan/'},
+														//{image : 'want9191-1A2DMh1383387500.jpg', url: '/'},
+														//{image : 'twitter.jpg', url: '/'},
+														//{image : 'twitter1.png', url: '/'},
+														{image : 'img/twitter_followers.jpg', url: '/'},
+														//{image : 'socialmedia-companies.jpg', url: '/'},
+														{image : 'img/TwitterBird23.jpg', url: '/'},
+														//{image : 'Twitter-for-authors.png', url: '/'},
+														{image : 'img/24142-1.png', url: '/'},
+														{image : 'img/feature_twitter10__01__630x4201.jpg', url: '/'},
+														{image : 'img/twitter (1).jpg', url: '/'},
+														//{image : 'parallax-4.jpg', url: '/'},
+														//{image : '246785_4105955240718_460680719_n.jpg', url: '/'},
+														//{image : '15.png', url: '/'},
+														//{image : 'DSC_6148_e1.jpg', url: '/'},
+														//{image : 'DSC_6362.jpg', url: '/'},
+														//{image : 'logo.png', title : 'Image Credit: Maria Kazvan', url: '/'},
+														
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+<body>
+	<div id="header">
+		<div class="login_box">
+			<div class="container">
+
+				<form class="form-signin" role="form">
+					<img src="img/twitter-logo-bird.gif" class="twitter_logo"/>
+					<h2 class="form-signin-heading">Please sign in</h2>
+					<input type="email" class="form-control" placeholder="Email address" required autofocus>
+					<input type="password" class="form-control" placeholder="Password" required>
+					<label class="checkbox">
+						<input type="checkbox" value="remember-me"> Remember me
+					</label>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+				</form>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<br>Designed and Developed By TwitBubbles
+		</div>		
+	</div>
+	
+	
+</body>
+</html>
