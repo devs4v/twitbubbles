@@ -1,2 +1,5 @@
 App key 	:	2OnxwQrJikLZI7YCx1FIHqhTU
 App Secret	:	jRv9QS7GEDCMojFlwsbMrCVs5gQ8IviV8ViYK86J2evMjMag6u
+
+Access token:	43135464-otST3o88CTCTTZXtAsV9WPCzdUufsbsElHeEsL9Tm
+Access token secret:	w5UiN3rFGvj3kq62pD66LvBQtgoNea2XzVIxUtI2GerV8
