@@ -25,13 +25,6 @@ body{
 	width: 75px;
 	float: left;
 }
-/*.headerimg {
-	margin: 50px;
-	background-position: center top;
-	background-repeat: no-repeat;
-	width:100%;
-	height:400px;
-	position:absolute; }
 
 /* NAVIGATION */
 #nav-outer{
@@ -96,6 +89,10 @@ margin: 5px;
 	/*background-color: #7EA8E0;*/
 	/*background-color: #364861;*/
 	border: 3px solid #7EA8E0;
+}
+
+.signin_header{
+	margin-left: -10px;
 }
 /* MENU */
 /*#menu {
