@@ -1,0 +1,83 @@
+/* HTML ELEMENTS */
+body{
+	font:62.5% Georgia,'Times New Roman',serif;
+	letter-spacing:1; }
+
+/* HEADER */
+#wrapper_main {
+	background-image: url('http://www.gwm-eg.com/Images/overlays/patterns/lines-1.png');
+	height:650px;
+	width: 100%;
+	}
+
+.twitter_logo{
+	width: 75px;
+	float: left;
+}
+/* TWEET BOX */
+
+.tweet_box{
+	/*height: 300px;*/
+	width: 500px;
+	padding: 15px;
+	background-image: url("../img/textbg.png");
+	border: 3px solid #7EA8E0;
+	overflow: hidden;
+}
+.tweet_userinfo, .tweet_userimage{
+	display: block;
+	float: left;
+}
+
+.tweet_userimage{
+	height: 60px;
+	
+}
+.tweet_username, .tweet_userhandle{
+	padding: 5px;
+	font-size: 15px;
+}
+.tweet_post{
+	width: 450px;
+	margin: 10px;
+	padding: 10px;
+	
+}
+.tweet_time{
+	float: right;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.tweet_post{
+	display: block;
+	float: left;
+	font-size: 20px;
+}
+.tweet_buttons{
+	margin-left: 20px;
+}
+.tweet_replyimg, .tweet_retweetimg, .tweet_favimg{
+	height: 20px;
+	font-size: 15px;
+	margin-left: 10px;
+	float: left;
+}
+.tweet_reply, .tweet_retweet, .tweet_favourite{
+	padding: 3px;
+	float: left;
+	font-size: 15px;
+
+}
+/* FOOTER*/
+#footer{
+	height: 50px;
+	width: 100%;
+	bottom: 0px;
+	font-size: 15px;
+	text-align: center;
+	background-image: url("../img/textbg.png");
+	/*background-color: #7EA8E0364861;*/
+	border-top: 3px solid #7EA8E0;
+	position: absolute;
+}
